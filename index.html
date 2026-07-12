@@ -1,0 +1,1327 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#6f5be7" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Forma" />
+  <title>Forma · Entrenamiento y comidas</title>
+  <link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAIAAADdvvtQAAAD3ElEQVR4nO3du3EUQRSG0RFFAJhkhiHlIEWAQQQEgUNkkkkIGFulWvRia/+Z269zPHDo6vn29tSORtzc3z5ucK1PrRfA2AREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQ+t17AG37++tp6Cf16uHtqvYR/3HTy611Ec4UeYmofkHRCbTNqGZB0dtQqo2Y30erZV6v9bBOQeo7QZFerjzDpFKg8zkonkHpqVO6zLxKJ1AVk/FQq2+2igNRTr2bPKwJSTysFO+8eiMjhARk/bR29/yYQkWMDMn56cOhVMIGICIiIgIgcGJAboH4cdy1MICICIiIgIj2+1rOLHt5YODfrHeGEAfWWzslpVfNlNNsR1mc9zzpf3hWmCmiIyzPEIi83T0ADXZiBlvpfkwQ03CUZbsHvmSQgWpkhoEE/zYMu+4UZAqIhAREREBEBEREQEQE1M8dzMQEREVAbc4yfTUBNTFPPJqB6M9WzCajYZPVsU/5EYp/mS+dk9YBmva5lHGFEBEREQEQERERARAREREBEBEREQEQERERARAREZPWHqfnroYs/jjWBUg93T3O8pHwdAe1j2YYEtJs1GxLQnhZsSEA7W60hARER0P6WGkICIiIgIgIiIiAiAiIioP0t9XhVQEQEtLOlxs8moH2tVs8moB0tWM8moL2sWc/mR1pzy6ZzsnpAi1/+nCOMiICICIiIgIgIiIiAiAiIiICICIiIgIgIiMjqz8Ka+PP99/kfv/z41molOROo2ot63vybgQio1HutjNuQgOp8XMmgDQmoyCV9jNiQgIgIiIiAiAiIiICKXPJt4YjfKM4Q0NVvVhS/kvFxHyPWs80R0EDeq2TQerZpArpilrR6I+x1K+PWs830MPXnr6+X/3rUtu8TDl3MC5NMoJMLs/A26o6mCmi7IA717GueI+zZKZHXx5l0jjBhQCdyqTHbEUYxAREREBEBEREQEQERERARARE5MKCl/ufHzh13LUwgIgIiIiAixwbkNqgHh14FE4jI4QEZQm0dvf8mEJGKgAyhVgp2vmgCaahezZ7XHWEaqlS22+6BiJQGZAjVqNznm/vbx7J/7JlXJg5S/xFtc4QZRUdosqvN7oE0tK9W+9nmCDvnOAu1/Si2D+hERlfoYYr3EtA5MX2gh2jO9RgQA/FFIhEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQER+Qu5Bc12DvEn+gAAAABJRU5ErkJggg==" />
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAIAAADdvvtQAAAD3ElEQVR4nO3du3EUQRSG0RFFAJhkhiHlIEWAQQQEgUNkkkkIGFulWvRia/+Z269zPHDo6vn29tSORtzc3z5ucK1PrRfA2AREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQ+t17AG37++tp6Cf16uHtqvYR/3HTy611Ec4UeYmofkHRCbTNqGZB0dtQqo2Y30erZV6v9bBOQeo7QZFerjzDpFKg8zkonkHpqVO6zLxKJ1AVk/FQq2+2igNRTr2bPKwJSTysFO+8eiMjhARk/bR29/yYQkWMDMn56cOhVMIGICIiIgIgcGJAboH4cdy1MICICIiIgIj2+1rOLHt5YODfrHeGEAfWWzslpVfNlNNsR1mc9zzpf3hWmCmiIyzPEIi83T0ADXZiBlvpfkwQ03CUZbsHvmSQgWpkhoEE/zYMu+4UZAqIhAREREBEBEREQEQE1M8dzMQEREVAbc4yfTUBNTFPPJqB6M9WzCajYZPVsU/5EYp/mS+dk9YBmva5lHGFEBEREQEQERERARAREREBEBEREQEQERERARAREZPWHqfnroYs/jjWBUg93T3O8pHwdAe1j2YYEtJs1GxLQnhZsSEA7W60hARER0P6WGkICIiIgIgIiIiAiAiIioP0t9XhVQEQEtLOlxs8moH2tVs8moB0tWM8moL2sWc/mR1pzy6ZzsnpAi1/+nCOMiICICIiIgIgIiIiAiAiIiICICIiIgIgIiMjqz8Ka+PP99/kfv/z41molOROo2ot63vybgQio1HutjNuQgOp8XMmgDQmoyCV9jNiQgIgIiIiAiAiIiICKXPJt4YjfKM4Q0NVvVhS/kvFxHyPWs80R0EDeq2TQerZpArpilrR6I+x1K+PWs830MPXnr6+X/3rUtu8TDl3MC5NMoJMLs/A26o6mCmi7IA717GueI+zZKZHXx5l0jjBhQCdyqTHbEUYxAREREBEBEREQEQERERARARE5MKCl/ufHzh13LUwgIgIiIiAixwbkNqgHh14FE4jI4QEZQm0dvf8mEJGKgAyhVgp2vmgCaahezZ7XHWEaqlS22+6BiJQGZAjVqNznm/vbx7J/7JlXJg5S/xFtc4QZRUdosqvN7oE0tK9W+9nmCDvnOAu1/Si2D+hERlfoYYr3EtA5MX2gh2jO9RgQA/FFIhEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQER+Qu5Bc12DvEn+gAAAABJRU5ErkJggg==" />
+  <style>
+:root {
+  --bg: #f6f4fb;
+  --surface: #ffffff;
+  --surface-2: #f0edf8;
+  --text: #211d2e;
+  --muted: #716b80;
+  --line: #e4e0ec;
+  --primary: #6f5be7;
+  --primary-soft: #ebe7ff;
+  --accent: #ef7da8;
+  --green: #2f9b72;
+  --green-soft: #e4f5ee;
+  --amber: #b97716;
+  --amber-soft: #fff1d7;
+  --red: #bd4d5b;
+  --red-soft: #ffe9ec;
+  --shadow: 0 14px 40px rgba(54, 44, 90, 0.10);
+  --radius: 20px;
+  --safe-bottom: max(12px, env(safe-area-inset-bottom));
+}
+
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body {
+  margin: 0;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 100% 0%, rgba(111,91,231,.12), transparent 28%),
+    var(--bg);
+  font-family: Inter, ui-rounded, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+button, input, select, textarea { font: inherit; }
+button { -webkit-tap-highlight-color: transparent; }
+
+.app-shell { min-height: 100dvh; padding-bottom: 94px; }
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: max(18px, env(safe-area-inset-top)) 18px 12px;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(18px);
+}
+.topbar h1 { margin: 1px 0 0; font-size: 28px; letter-spacing: -.04em; }
+.eyebrow { margin: 0; color: var(--muted); font-size: 12px; font-weight: 750; text-transform: uppercase; letter-spacing: .09em; }
+.main-content { width: min(100%, 940px); margin: 0 auto; padding: 6px 16px 24px; }
+
+.bottom-nav {
+  position: fixed;
+  z-index: 30;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: min(100%, 760px);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 9px 8px var(--safe-bottom);
+  border-top: 1px solid color-mix(in srgb, var(--line) 80%, transparent);
+  background: color-mix(in srgb, white 92%, transparent);
+  backdrop-filter: blur(22px);
+}
+.nav-item {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  min-height: 55px;
+  border-radius: 15px;
+  display: grid;
+  place-content: center;
+  gap: 3px;
+  cursor: pointer;
+}
+.nav-item span { font-size: 21px; line-height: 1; }
+.nav-item small { font-size: 11px; font-weight: 700; }
+.nav-item.active { color: var(--primary); background: var(--primary-soft); }
+
+.icon-button {
+  border: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  color: white;
+  background: var(--primary);
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(111,91,231,.23);
+}
+.icon-button.secondary { background: var(--surface-2); color: var(--text); box-shadow: none; }
+
+.card {
+  background: var(--surface);
+  border: 1px solid rgba(226, 222, 236, .9);
+  border-radius: var(--radius);
+  padding: 16px;
+  box-shadow: var(--shadow);
+}
+.card + .card { margin-top: 12px; }
+.card h2, .card h3, .card p { margin-top: 0; }
+.card-title-row, .section-title-row, .week-toolbar, .row-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.section { margin-top: 18px; }
+.section-title-row { margin: 0 2px 9px; }
+.section-title-row h2 { margin: 0; font-size: 18px; }
+.muted { color: var(--muted); }
+.small { font-size: 13px; }
+.tiny { font-size: 11px; }
+
+.hero {
+  background: linear-gradient(135deg, #2d2745 0%, #6452d2 75%, #8d75ef 100%);
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  right: -65px;
+  top: -90px;
+  background: rgba(255,255,255,.10);
+}
+.hero .muted { color: rgba(255,255,255,.72); }
+.hero h2 { font-size: 25px; margin-bottom: 8px; letter-spacing: -.03em; }
+.metric-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 15px; }
+.metric { padding: 10px; border-radius: 14px; background: rgba(255,255,255,.11); }
+.metric strong { display: block; font-size: 18px; }
+.metric span { font-size: 11px; color: rgba(255,255,255,.72); }
+
+.week-toolbar { margin-bottom: 12px; }
+.week-toolbar strong { font-size: 16px; text-transform: capitalize; }
+.button-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.button, .chip-button {
+  border: 0;
+  cursor: pointer;
+  border-radius: 13px;
+  font-weight: 750;
+}
+.button { padding: 11px 14px; background: var(--primary); color: white; }
+.button.secondary { background: var(--surface-2); color: var(--text); }
+.button.ghost { background: transparent; border: 1px solid var(--line); color: var(--text); }
+.button.danger { background: var(--red-soft); color: var(--red); }
+.button.full { width: 100%; }
+.button:disabled { opacity: .45; cursor: default; }
+.chip-button { padding: 7px 10px; background: var(--surface-2); color: var(--muted); font-size: 12px; }
+.chip-button.active { background: var(--red-soft); color: var(--red); }
+
+.day-grid { display: grid; gap: 10px; }
+.day-card { padding: 14px; }
+.day-card.today { border-color: var(--primary); box-shadow: 0 12px 30px rgba(111,91,231,.16); }
+.day-card.social { background: linear-gradient(180deg, #fff, #fff7fa); }
+.day-head { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+.day-head h3 { margin: 0; font-size: 17px; text-transform: capitalize; }
+.day-head p { margin: 2px 0 0; }
+.day-events { display: grid; gap: 7px; }
+.event {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 9px;
+  padding: 10px;
+  border-radius: 14px;
+  background: var(--surface-2);
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.event .event-icon { width: 32px; height: 32px; display: grid; place-content: center; border-radius: 10px; background: white; }
+.event strong { display: block; font-size: 13px; }
+.event small { color: var(--muted); }
+.event.training { background: var(--primary-soft); color: #4939ad; }
+.event.training.completed { background: var(--green-soft); color: #237758; }
+.event.training.skipped { background: var(--red-soft); color: var(--red); }
+.event.class { background: #eff3f7; }
+.event.social-plan { background: #fff0f5; color: #a54269; }
+.event.meal { background: #f4f1e8; color: #6e5a24; }
+.empty-state { padding: 18px 10px; text-align: center; color: var(--muted); }
+
+.pill { display: inline-flex; align-items: center; gap: 5px; padding: 5px 8px; border-radius: 999px; font-size: 11px; font-weight: 750; background: var(--surface-2); color: var(--muted); }
+.pill.green { background: var(--green-soft); color: var(--green); }
+.pill.amber { background: var(--amber-soft); color: var(--amber); }
+.pill.red { background: var(--red-soft); color: var(--red); }
+.pill.primary { background: var(--primary-soft); color: var(--primary); }
+
+.segmented { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; padding: 4px; border-radius: 15px; background: var(--surface-2); margin-bottom: 12px; overflow-x: auto; }
+.segmented button { white-space: nowrap; border: 0; background: transparent; padding: 9px 10px; border-radius: 11px; font-weight: 750; color: var(--muted); cursor: pointer; }
+.segmented button.active { background: white; color: var(--primary); box-shadow: 0 3px 12px rgba(51,40,83,.08); }
+
+.exercise-row, .shopping-row, .meal-row, .progress-row {
+  display: grid;
+  align-items: center;
+  gap: 9px;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--line);
+}
+.exercise-row:last-child, .shopping-row:last-child, .meal-row:last-child, .progress-row:last-child { border-bottom: 0; }
+.exercise-row { grid-template-columns: minmax(120px,1.5fr) repeat(3,minmax(55px,.6fr)) auto; }
+.exercise-row .name strong { display: block; }
+.inline-input { width: 100%; min-width: 0; border: 1px solid var(--line); border-radius: 10px; padding: 8px; background: var(--bg); color: var(--text); }
+.text-button { border: 0; background: transparent; color: var(--primary); font-weight: 750; cursor: pointer; padding: 5px; }
+
+.meal-day { margin-bottom: 12px; }
+.meal-day h3 { text-transform: capitalize; }
+.meal-row { grid-template-columns: 72px 1fr auto; }
+.meal-row .meal-meta strong { display: block; }
+.meal-summary { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+
+.shopping-category { margin-top: 15px; }
+.shopping-category h3 { font-size: 14px; color: var(--muted); margin: 0 0 4px; text-transform: uppercase; letter-spacing: .06em; }
+.shopping-row { grid-template-columns: auto minmax(115px,1fr) minmax(70px,.55fr) minmax(70px,.55fr); }
+.shopping-row.done .item-name { text-decoration: line-through; color: var(--muted); }
+.check { width: 22px; height: 22px; accent-color: var(--primary); }
+.budget-bar { height: 10px; border-radius: 999px; background: var(--surface-2); overflow: hidden; margin-top: 10px; }
+.budget-bar > span { height: 100%; display: block; background: var(--green); border-radius: inherit; transition: width .2s ease; }
+.budget-bar.over > span { background: var(--red); }
+
+.form-grid { display: grid; gap: 12px; }
+.form-grid.two { grid-template-columns: 1fr 1fr; }
+label.field { display: grid; gap: 6px; font-size: 13px; font-weight: 700; color: var(--muted); }
+.field input, .field select, .field textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 11px;
+  background: white;
+  color: var(--text);
+}
+.field textarea { min-height: 88px; resize: vertical; }
+.toggle-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 0; }
+.switch { position: relative; width: 48px; height: 28px; }
+.switch input { opacity: 0; width: 0; height: 0; }
+.switch span { position: absolute; inset: 0; border-radius: 999px; background: #cbc6d7; transition: .2s; cursor: pointer; }
+.switch span::after { content: ""; position: absolute; width: 22px; height: 22px; left: 3px; top: 3px; border-radius: 50%; background: white; transition: .2s; box-shadow: 0 2px 7px rgba(0,0,0,.15); }
+.switch input:checked + span { background: var(--primary); }
+.switch input:checked + span::after { transform: translateX(20px); }
+
+.notice { padding: 12px; border-radius: 14px; background: var(--amber-soft); color: #7a561c; font-size: 13px; }
+.notice.primary { background: var(--primary-soft); color: #4b3bb0; }
+.notice.green { background: var(--green-soft); color: #28765a; }
+
+.chart-wrap { width: 100%; overflow: hidden; }
+canvas { width: 100%; max-height: 220px; }
+
+.modal {
+  border: 0;
+  padding: 0;
+  width: min(calc(100% - 24px), 620px);
+  max-height: 90dvh;
+  border-radius: 24px;
+  box-shadow: 0 30px 90px rgba(33,29,46,.30);
+}
+.modal::backdrop { background: rgba(30,25,43,.48); backdrop-filter: blur(4px); }
+.modal-card { padding: 0; }
+.modal-header { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 18px 12px; background: white; border-bottom: 1px solid var(--line); }
+.modal-header h2 { margin: 2px 0 0; font-size: 22px; }
+.modal-body { padding: 16px 18px; max-height: 66dvh; overflow: auto; }
+.modal-actions { position: sticky; bottom: 0; display: flex; justify-content: flex-end; gap: 8px; padding: 12px 18px calc(12px + env(safe-area-inset-bottom)); background: white; border-top: 1px solid var(--line); }
+
+@media (min-width: 700px) {
+  .main-content { padding-inline: 24px; }
+  .day-grid { grid-template-columns: repeat(2, 1fr); }
+  .day-card:first-child { grid-column: span 2; }
+  .meal-week-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .meal-day { margin-bottom: 0; }
+}
+
+@media (max-width: 520px) {
+  .exercise-row { grid-template-columns: 1fr 70px 58px 58px auto; font-size: 12px; }
+  .shopping-row { grid-template-columns: auto 1fr 70px; }
+  .shopping-row .price-input { grid-column: 3; }
+  .form-grid.two { grid-template-columns: 1fr; }
+}
+
+/* Forma v2 */
+.day-card.unavailable { background: linear-gradient(180deg, #fff, #fff8f0); border-color: #efd9ba; }
+.unavailable-event { background: var(--amber-soft); color: #7a561c; }
+.workout-list { display: grid; gap: 12px; }
+.workout-card h2 { margin: 3px 0 4px; font-size: 19px; }
+.mini-progress { height: 8px; border-radius: 999px; background: var(--surface-2); overflow: hidden; margin: 12px 0; }
+.mini-progress span { display: block; height: 100%; border-radius: inherit; background: var(--primary); }
+.routine-summary { margin-top: 10px; }
+.routine-summary summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.routine-summary summary::-webkit-details-marker { display: none; }
+.routine-summary summary > span { color: var(--primary); font-weight: 750; font-size: 13px; }
+.routine-list { margin-top: 14px; }
+.routine-line, .class-line { display: grid; align-items: center; gap: 10px; padding: 10px 0; border-top: 1px solid var(--line); }
+.routine-line { grid-template-columns: 1fr auto; }
+.routine-line small { display: block; color: var(--muted); margin-top: 2px; }
+.class-line { grid-template-columns: 55px 1fr auto; }
+.workout-exercises { display: grid; gap: 12px; margin: 16px 0; }
+.workout-exercise { border: 1px solid var(--line); border-radius: 16px; padding: 13px; background: var(--bg); }
+.exercise-title { display: flex; align-items: flex-start; gap: 10px; }
+.exercise-title strong { display: block; }
+.exercise-title small { display: block; color: var(--muted); margin-top: 3px; }
+.exercise-check { padding-top: 1px; }
+.exercise-help { margin: 10px 0; border-radius: 12px; background: white; padding: 9px 11px; }
+.exercise-help summary { cursor: pointer; color: var(--primary); font-size: 13px; font-weight: 750; }
+.exercise-help p { margin: 8px 0 1px; color: var(--muted); font-size: 13px; line-height: 1.45; }
+.exercise-inputs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 7px; }
+.exercise-inputs label { display: grid; gap: 4px; color: var(--muted); font-size: 11px; font-weight: 700; }
+.exercise-inputs input { width: 100%; min-width: 0; padding: 9px 6px; border: 1px solid var(--line); border-radius: 10px; background: white; }
+.field.compact { margin-top: 9px; }
+.field.compact input { padding: 9px; }
+.inset-card { margin-top: 12px; padding: 13px; border: 1px solid var(--line); border-radius: 14px; background: var(--bg); }
+.inset-card p:first-child, .inset-card h3:first-child { margin-top: 0; }
+.meal-detail-row { padding: 10px 0; border-bottom: 1px solid var(--line); }
+.meal-detail-row:last-of-type { border-bottom: 0; }
+.meal-main-button { width: 100%; border: 0; background: transparent; display: grid; grid-template-columns: 70px 1fr auto; gap: 8px; text-align: left; align-items: center; padding: 0; color: var(--text); cursor: pointer; }
+.meal-main-button strong, .meal-main-button small { display: block; }
+.meal-main-button small { color: var(--muted); margin-top: 2px; }
+.meal-slot { color: var(--muted); font-size: 12px; font-weight: 750; }
+.ingredient-list { list-style: none; margin: 8px 0 0 78px; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.ingredient-list li { padding: 5px 8px; border-radius: 999px; background: var(--surface-2); font-size: 11px; color: var(--muted); }
+.ingredient-list li strong { color: var(--text); }
+@media (min-width: 700px) {
+  .workout-list { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 520px) {
+  .exercise-inputs { grid-template-columns: repeat(2, 1fr); }
+  .ingredient-list { margin-left: 0; }
+  .meal-main-button { grid-template-columns: 62px 1fr auto; }
+}
+
+  </style>
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow" id="todayLabel">Tu plan</p>
+        <h1 id="pageTitle">Semana</h1>
+      </div>
+      <button class="icon-button" id="quickAddButton" aria-label="Añadir">+</button>
+    </header>
+
+    <main id="mainContent" class="main-content" aria-live="polite"></main>
+
+    <nav class="bottom-nav" aria-label="Navegación principal">
+      <button data-route="week" class="nav-item active"><span>▦</span><small>Semana</small></button>
+      <button data-route="training" class="nav-item"><span>◉</span><small>Entreno</small></button>
+      <button data-route="meals" class="nav-item"><span>⌁</span><small>Comidas</small></button>
+      <button data-route="shopping" class="nav-item"><span>✓</span><small>Compra</small></button>
+      <button data-route="progress" class="nav-item"><span>↗</span><small>Progreso</small></button>
+    </nav>
+  </div>
+
+  <dialog id="modal" class="modal">
+    <form method="dialog" class="modal-card" id="modalForm">
+      <div class="modal-header">
+        <div>
+          <p class="eyebrow" id="modalEyebrow"></p>
+          <h2 id="modalTitle"></h2>
+        </div>
+        <button class="icon-button secondary" value="cancel" aria-label="Cerrar">×</button>
+      </div>
+      <div id="modalBody" class="modal-body"></div>
+      <div id="modalActions" class="modal-actions"></div>
+    </form>
+  </dialog>
+
+  <input type="file" id="importInput" accept="application/json" hidden />
+  <script>
+(() => {
+  'use strict';
+
+  const STORAGE_KEY = 'formaAppStateV2';
+  const LEGACY_KEY = 'formaAppStateV1';
+  const DAY_NAMES = ['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'];
+  const MONTHS = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+  const SLOT_LABELS = { breakfast: 'Desayuno', lunch: 'Comida', snack: 'Extra', dinner: 'Cena' };
+
+  const $ = (selector, root = document) => root.querySelector(selector);
+  const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
+  const uid = () => `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
+  const clone = value => JSON.parse(JSON.stringify(value));
+
+  function escapeHtml(value = '') {
+    return String(value)
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;')
+      .replaceAll("'", '&#039;');
+  }
+
+  function parseDate(iso) {
+    const [y, m, d] = iso.split('-').map(Number);
+    return new Date(y, m - 1, d, 12, 0, 0, 0);
+  }
+
+  function isoDate(date) {
+    const y = date.getFullYear();
+    const m = String(date.getMonth() + 1).padStart(2, '0');
+    const d = String(date.getDate()).padStart(2, '0');
+    return `${y}-${m}-${d}`;
+  }
+
+  function addDays(isoOrDate, days) {
+    const date = typeof isoOrDate === 'string' ? parseDate(isoOrDate) : new Date(isoOrDate);
+    date.setDate(date.getDate() + days);
+    return isoDate(date);
+  }
+
+  function startOfWeek(date = new Date()) {
+    const d = new Date(date.getFullYear(), date.getMonth(), date.getDate(), 12);
+    d.setDate(d.getDate() - ((d.getDay() + 6) % 7));
+    return isoDate(d);
+  }
+
+  function dayIndexFromIso(iso) {
+    return (parseDate(iso).getDay() + 6) % 7;
+  }
+
+  function formatDate(iso, options = { day: 'numeric', month: 'short' }) {
+    return parseDate(iso).toLocaleDateString('es-ES', options);
+  }
+
+  function formatWeekRange(monday) {
+    const sunday = addDays(monday, 6);
+    const a = parseDate(monday);
+    const b = parseDate(sunday);
+    if (a.getMonth() === b.getMonth()) return `${a.getDate()}–${b.getDate()} de ${MONTHS[a.getMonth()]}`;
+    return `${a.getDate()} ${MONTHS[a.getMonth()].slice(0, 3)} – ${b.getDate()} ${MONTHS[b.getMonth()].slice(0, 3)}`;
+  }
+
+  function timeToMinutes(time) {
+    const [h, m] = String(time || '00:00').split(':').map(Number);
+    return h * 60 + m;
+  }
+
+  function durationBetween(start, end) {
+    return Math.max(15, timeToMinutes(end) - timeToMinutes(start));
+  }
+
+  const defaultUniversity = [
+    { day: 0, start: '08:30', end: '13:20', label: 'Clases' },
+    { day: 1, start: '10:30', end: '14:20', label: 'Clases' },
+    { day: 2, start: '08:30', end: '12:20', label: 'Clases' },
+    { day: 3, start: '10:30', end: '14:20', label: 'Clases' },
+    { day: 4, start: '08:30', end: '12:20', label: 'Clases' }
+  ];
+
+  const defaultGymClasses = [
+    { id: uid(), day: 0, name: 'BodyPump', start: '18:00', end: '19:00' },
+    { id: uid(), day: 0, name: 'Strength Development', start: '17:00', end: '18:00' },
+    { id: uid(), day: 0, name: 'Strength Development', start: '21:00', end: '22:00' },
+    { id: uid(), day: 1, name: 'BodyPump', start: '10:00', end: '11:00' },
+    { id: uid(), day: 1, name: 'BodyPump', start: '14:30', end: '15:30' },
+    { id: uid(), day: 1, name: 'BodyPump', start: '20:00', end: '21:00' },
+    { id: uid(), day: 2, name: 'BodyPump', start: '17:00', end: '18:00' },
+    { id: uid(), day: 2, name: 'Strength Development', start: '09:00', end: '10:00' },
+    { id: uid(), day: 2, name: 'Strength Development', start: '19:00', end: '20:00' },
+    { id: uid(), day: 3, name: 'BodyPump', start: '09:00', end: '10:00' },
+    { id: uid(), day: 3, name: 'BodyPump', start: '19:00', end: '20:00' },
+    { id: uid(), day: 4, name: 'BodyPump', start: '19:00', end: '20:00' },
+    { id: uid(), day: 5, name: 'BodyPump', start: '10:00', end: '11:00' }
+  ];
+
+  const defaultRoutines = {
+    A: {
+      name: 'Fuerza A · cuerpo completo',
+      exercises: [
+        { id: 'leg-press', name: 'Prensa de piernas', sets: 3, reps: '8–10', explanation: 'Apoya toda la espalda y los glúteos en el respaldo. Coloca los pies a la anchura de las caderas, baja de forma controlada sin despegar la pelvis y empuja con todo el pie. No bloquees las rodillas.' },
+        { id: 'rdl', name: 'Peso muerto rumano con mancuernas', sets: 3, reps: '8–10', explanation: 'Mantén las mancuernas cerca de las piernas. Lleva la cadera hacia atrás con una ligera flexión de rodillas y la espalda neutra. Baja hasta notar tensión en los isquiotibiales y vuelve apretando glúteos.' },
+        { id: 'lat-pulldown', name: 'Jalón al pecho', sets: 3, reps: '8–12', explanation: 'Sujeta la barra algo más ancho que los hombros. Baja los hombros, acerca la barra a la parte alta del pecho y lleva los codos hacia abajo. Evita balancearte o tirar detrás de la nuca.' },
+        { id: 'chest-press', name: 'Press de pecho en máquina', sets: 3, reps: '8–12', explanation: 'Ajusta el asiento para que las empuñaduras queden a la altura del pecho. Mantén escápulas apoyadas, empuja sin encoger hombros y regresa despacio sin dejar caer el peso.' },
+        { id: 'hip-thrust', name: 'Hip thrust', sets: 3, reps: '10–12', explanation: 'Apoya la parte alta de la espalda, coloca los pies de modo que arriba las tibias queden casi verticales. Eleva la cadera apretando glúteos, sin arquear la zona lumbar, y baja con control.' },
+        { id: 'lateral-raise', name: 'Elevaciones laterales', sets: 2, reps: '12–15', explanation: 'Con codos ligeramente flexionados, eleva las mancuernas hacia los lados hasta aproximadamente la altura de los hombros. Usa poco impulso y baja lentamente.' },
+        { id: 'dead-bug', name: 'Dead bug', sets: 3, reps: '8–12 por lado', explanation: 'Túmbate boca arriba con caderas y rodillas a 90°. Pega suavemente la zona lumbar al suelo y extiende brazo y pierna contrarios sin perder esa posición. Alterna lados.' }
+      ]
+    },
+    B: {
+      name: 'Fuerza B · complemento',
+      exercises: [
+        { id: 'bulgarian', name: 'Sentadilla búlgara', sets: 3, reps: '8 por pierna', explanation: 'Apoya el empeine trasero en un banco y coloca el pie delantero suficientemente lejos. Baja verticalmente manteniendo el pie delantero completo apoyado y empuja para subir.' },
+        { id: 'leg-curl', name: 'Curl femoral', sets: 3, reps: '10–12', explanation: 'Ajusta la máquina para que el eje coincida con la rodilla. Flexiona las rodillas sin levantar la cadera del asiento o banco y regresa despacio.' },
+        { id: 'seated-row', name: 'Remo sentado', sets: 3, reps: '8–12', explanation: 'Mantén el torso estable y el pecho abierto. Lleva el agarre hacia el abdomen acercando los codos al cuerpo y junta ligeramente las escápulas sin encoger hombros.' },
+        { id: 'shoulder-press', name: 'Press de hombros en máquina', sets: 2, reps: '8–10', explanation: 'Ajusta el asiento para empezar con las manos cerca de la altura de los hombros. Empuja hacia arriba manteniendo el abdomen firme y sin arquear la espalda.' },
+        { id: 'hip-abduction', name: 'Abducción de cadera', sets: 2, reps: '12–15', explanation: 'Mantén el tronco estable y abre las piernas contra las almohadillas. Haz una pausa breve al final y vuelve de forma controlada sin dejar que las placas choquen.' },
+        { id: 'pallof', name: 'Pallof press', sets: 3, reps: '10–15 por lado', explanation: 'Colócate de lado a una polea, sujeta el agarre frente al pecho y extiende los brazos sin dejar que el torso rote. Mantén abdomen y glúteos activos.' }
+      ]
+    }
+  };
+
+  const bodyPumpExercises = [
+    { id: 'bp-warmup', name: 'Calentamiento', sets: 1, reps: 'canción completa', explanation: 'Usa un peso ligero. Prioriza aprender los movimientos y mantener la técnica; no es una pista para fatigarte.' },
+    { id: 'bp-squats', name: 'Sentadillas', sets: 1, reps: 'canción completa', explanation: 'Rodillas en la dirección de los pies, talones apoyados y pecho abierto. Elige un peso que te permita conservar profundidad y control hasta el final.' },
+    { id: 'bp-chest', name: 'Pecho', sets: 1, reps: 'canción completa', explanation: 'Mantén hombros alejados de las orejas y controla la bajada. Anota el peso total de la barra o las mancuernas.' },
+    { id: 'bp-back', name: 'Espalda', sets: 1, reps: 'canción completa', explanation: 'En peso muerto y remo, lleva la cadera atrás y mantén la espalda neutra. En cargadas, mueve la barra cerca del cuerpo.' },
+    { id: 'bp-triceps', name: 'Tríceps', sets: 1, reps: 'canción completa', explanation: 'Mantén los codos relativamente cerca del cuerpo y reduce el peso si la técnica se deteriora.' },
+    { id: 'bp-biceps', name: 'Bíceps', sets: 1, reps: 'canción completa', explanation: 'Evita balancear el torso. Mantén los codos cerca del cuerpo y usa un peso que puedas controlar durante toda la canción.' },
+    { id: 'bp-lunges', name: 'Zancadas', sets: 1, reps: 'canción completa', explanation: 'Da una zancada suficientemente amplia, mantén el pie delantero completo apoyado y baja con control. Puedes hacerlo sin peso si pierdes estabilidad.' },
+    { id: 'bp-shoulders', name: 'Hombros', sets: 1, reps: 'canción completa', explanation: 'Mantén el abdomen firme y evita arquear la espalda. Reduce peso antes de compensar con impulso.' }
+  ];
+
+  const mealLibrarySeed = [
+    {
+      id: 'breakfast-fixed', name: 'Tostada con tomate, cottage y pavo', type: 'breakfast', kcal: 350, protein: 25,
+      ingredients: [
+        { name: 'Pan', quantity: 60, unit: 'g', category: 'Despensa' },
+        { name: 'Tomate', quantity: 100, unit: 'g', category: 'Fruta y verdura' },
+        { name: 'Queso cottage', quantity: 60, unit: 'g', category: 'Refrigerados' },
+        { name: 'Pavo en lonchas', quantity: 40, unit: 'g', category: 'Refrigerados' },
+        { name: 'Leche', quantity: 150, unit: 'ml', category: 'Refrigerados' },
+        { name: 'Café', quantity: 8, unit: 'g', category: 'Despensa' }
+      ]
+    },
+    {
+      id: 'chicken-rice', name: 'Pollo con arroz y verduras', type: 'main', kcal: 590, protein: 45,
+      ingredients: [
+        { name: 'Pechuga de pollo', quantity: 170, unit: 'g', category: 'Carne y pescado' },
+        { name: 'Arroz en seco', quantity: 75, unit: 'g', category: 'Despensa' },
+        { name: 'Verdura congelada', quantity: 250, unit: 'g', category: 'Congelados' },
+        { name: 'Aceite de oliva', quantity: 8, unit: 'ml', category: 'Despensa' }
+      ]
+    },
+    {
+      id: 'lentils-rice-eggs', name: 'Lentejas con arroz y huevo', type: 'main', kcal: 560, protein: 32,
+      ingredients: [
+        { name: 'Lentejas cocidas', quantity: 250, unit: 'g', category: 'Legumbres' },
+        { name: 'Arroz en seco', quantity: 50, unit: 'g', category: 'Despensa' },
+        { name: 'Huevos', quantity: 2, unit: 'ud', category: 'Refrigerados' },
+        { name: 'Verdura congelada', quantity: 150, unit: 'g', category: 'Congelados' }
+      ]
+    },
+    {
+      id: 'chickpea-tuna', name: 'Ensalada de garbanzos y atún', type: 'main', kcal: 535, protein: 37,
+      ingredients: [
+        { name: 'Garbanzos cocidos', quantity: 230, unit: 'g', category: 'Legumbres' },
+        { name: 'Atún en lata', quantity: 1, unit: 'ud', category: 'Conservas' },
+        { name: 'Tomate', quantity: 120, unit: 'g', category: 'Fruta y verdura' },
+        { name: 'Cebolla', quantity: 50, unit: 'g', category: 'Fruta y verdura' },
+        { name: 'Aceite de oliva', quantity: 8, unit: 'ml', category: 'Despensa' }
+      ]
+    },
+    {
+      id: 'tuna-pasta', name: 'Pasta con atún, tomate y guisantes', type: 'main', kcal: 585, protein: 39,
+      ingredients: [
+        { name: 'Pasta en seco', quantity: 80, unit: 'g', category: 'Despensa' },
+        { name: 'Atún en lata', quantity: 1, unit: 'ud', category: 'Conservas' },
+        { name: 'Tomate triturado', quantity: 150, unit: 'g', category: 'Despensa' },
+        { name: 'Guisantes', quantity: 100, unit: 'g', category: 'Congelados' }
+      ]
+    },
+    {
+      id: 'soy-pasta', name: 'Pasta boloñesa de soja', type: 'main', kcal: 565, protein: 38,
+      ingredients: [
+        { name: 'Pasta en seco', quantity: 75, unit: 'g', category: 'Despensa' },
+        { name: 'Soja texturizada seca', quantity: 55, unit: 'g', category: 'Despensa' },
+        { name: 'Tomate triturado', quantity: 170, unit: 'g', category: 'Despensa' },
+        { name: 'Cebolla', quantity: 50, unit: 'g', category: 'Fruta y verdura' }
+      ]
+    },
+    {
+      id: 'chicken-potato', name: 'Pollo con patata y verduras', type: 'main', kcal: 545, protein: 43,
+      ingredients: [
+        { name: 'Pechuga de pollo', quantity: 170, unit: 'g', category: 'Carne y pescado' },
+        { name: 'Patata', quantity: 300, unit: 'g', category: 'Fruta y verdura' },
+        { name: 'Verdura congelada', quantity: 250, unit: 'g', category: 'Congelados' },
+        { name: 'Aceite de oliva', quantity: 8, unit: 'ml', category: 'Despensa' }
+      ]
+    },
+    {
+      id: 'omelette', name: 'Tortilla, pan y ensalada', type: 'main', kcal: 505, protein: 31,
+      ingredients: [
+        { name: 'Huevos', quantity: 3, unit: 'ud', category: 'Refrigerados' },
+        { name: 'Pan', quantity: 70, unit: 'g', category: 'Despensa' },
+        { name: 'Ensalada', quantity: 180, unit: 'g', category: 'Fruta y verdura' },
+        { name: 'Aceite de oliva', quantity: 6, unit: 'ml', category: 'Despensa' }
+      ]
+    },
+    {
+      id: 'chickpea-curry', name: 'Curry de garbanzos con arroz', type: 'main', kcal: 565, protein: 24,
+      ingredients: [
+        { name: 'Garbanzos cocidos', quantity: 230, unit: 'g', category: 'Legumbres' },
+        { name: 'Arroz en seco', quantity: 55, unit: 'g', category: 'Despensa' },
+        { name: 'Verdura congelada', quantity: 200, unit: 'g', category: 'Congelados' },
+        { name: 'Leche', quantity: 80, unit: 'ml', category: 'Refrigerados' }
+      ]
+    },
+    {
+      id: 'milk-banana', name: 'Leche y plátano', type: 'snack', kcal: 210, protein: 10,
+      ingredients: [
+        { name: 'Leche', quantity: 250, unit: 'ml', category: 'Refrigerados' },
+        { name: 'Plátano', quantity: 1, unit: 'ud', category: 'Fruta y verdura' }
+      ]
+    },
+    {
+      id: 'yogurt-fruit', name: 'Yogur natural y fruta', type: 'snack', kcal: 155, protein: 8,
+      ingredients: [
+        { name: 'Yogur natural', quantity: 1, unit: 'ud', category: 'Refrigerados' },
+        { name: 'Fruta de temporada', quantity: 1, unit: 'ud', category: 'Fruta y verdura' }
+      ]
+    },
+    { id: 'social-meal', name: 'Comida o cena fuera', type: 'social', kcal: 700, protein: 25, ingredients: [] }
+  ];
+
+  const defaultMealTemplate = [
+    { lunch: 'lentils-rice-eggs', dinner: 'chicken-potato', snack: 'milk-banana' },
+    { lunch: 'chickpea-tuna', dinner: 'omelette', snack: null },
+    { lunch: 'chicken-rice', dinner: 'lentils-rice-eggs', snack: 'milk-banana' },
+    { lunch: 'tuna-pasta', dinner: 'chickpea-curry', snack: null },
+    { lunch: 'chicken-potato', dinner: 'omelette', snack: 'milk-banana' },
+    { lunch: 'lentils-rice-eggs', dinner: 'social-meal', snack: null },
+    { lunch: 'soy-pasta', dinner: 'chickpea-tuna', snack: null }
+  ];
+
+  const priceCatalog = {
+    'Pan|g': { packQty: 500, packPrice: 1.35 },
+    'Tomate|g': { packQty: 1000, packPrice: 2.10 },
+    'Queso cottage|g': { packQty: 200, packPrice: 1.75 },
+    'Pavo en lonchas|g': { packQty: 200, packPrice: 2.35 },
+    'Leche|ml': { packQty: 1000, packPrice: 0.98 },
+    'Café|g': { packQty: 250, packPrice: 2.55 },
+    'Pechuga de pollo|g': { packQty: 1000, packPrice: 6.80 },
+    'Arroz en seco|g': { packQty: 1000, packPrice: 1.55 },
+    'Verdura congelada|g': { packQty: 1000, packPrice: 2.15 },
+    'Aceite de oliva|ml': { packQty: 1000, packPrice: 5.90 },
+    'Lentejas cocidas|g': { packQty: 400, packPrice: 0.85 },
+    'Huevos|ud': { packQty: 12, packPrice: 3.60 },
+    'Garbanzos cocidos|g': { packQty: 400, packPrice: 0.85 },
+    'Atún en lata|ud': { packQty: 3, packPrice: 2.65 },
+    'Cebolla|g': { packQty: 1000, packPrice: 1.65 },
+    'Pasta en seco|g': { packQty: 1000, packPrice: 1.45 },
+    'Tomate triturado|g': { packQty: 800, packPrice: 1.25 },
+    'Guisantes|g': { packQty: 1000, packPrice: 2.10 },
+    'Soja texturizada seca|g': { packQty: 500, packPrice: 2.35 },
+    'Patata|g': { packQty: 3000, packPrice: 3.95 },
+    'Ensalada|g': { packQty: 250, packPrice: 1.30 },
+    'Plátano|ud': { packQty: 6, packPrice: 1.80 },
+    'Yogur natural|ud': { packQty: 8, packPrice: 1.75 },
+    'Fruta de temporada|ud': { packQty: 6, packPrice: 2.20 }
+  };
+
+  function seedState() {
+    return {
+      version: 2,
+      profile: { calorieTarget: 1600, proteinTarget: 95, weeklyBudget: 25, stepTarget: 5000, goal: 'Recomposición corporal' },
+      settings: { club: 'Basic-Fit Calle de Fuencarral 126', scheduleVerified: '2026-07-13', weekdayEarliest: '15:30' },
+      university: clone(defaultUniversity),
+      gymClasses: clone(defaultGymClasses),
+      routines: clone(defaultRoutines),
+      mealLibrary: clone(mealLibrarySeed),
+      weeks: {},
+      progress: [],
+      ui: { route: 'week', selectedWeek: startOfWeek(new Date()) }
+    };
+  }
+
+  function migrateLegacy(saved) {
+    const fresh = seedState();
+    if (!saved || saved.version !== 1) return fresh;
+    const migrated = { ...fresh, ...saved, version: 2, profile: { ...fresh.profile, ...(saved.profile || {}) }, settings: { ...fresh.settings, ...(saved.settings || {}) }, ui: { ...fresh.ui, ...(saved.ui || {}) } };
+    migrated.routines = clone(defaultRoutines);
+    Object.values(migrated.weeks || {}).forEach(week => {
+      week.unavailableDates = week.unavailableDates || (week.socialDates || []).map(date => ({ date, lunchOutside: false, dinnerOutside: false, reason: '' }));
+      delete week.socialDates;
+      (week.sessions || []).forEach(session => {
+        session.workoutLog = session.workoutLog || {};
+      });
+    });
+    return migrated;
+  }
+
+  function loadState() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+      if (saved?.version === 2) {
+        const fresh = seedState();
+        return { ...fresh, ...saved, profile: { ...fresh.profile, ...(saved.profile || {}) }, settings: { ...fresh.settings, ...(saved.settings || {}) }, ui: { ...fresh.ui, ...(saved.ui || {}) } };
+      }
+      const legacy = JSON.parse(localStorage.getItem(LEGACY_KEY));
+      return migrateLegacy(legacy);
+    } catch (error) {
+      console.warn('No se pudo cargar la app', error);
+      return seedState();
+    }
+  }
+
+  let state = loadState();
+
+  function saveState() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  }
+
+  function mealById(id) {
+    return state.mealLibrary.find(meal => meal.id === id) || null;
+  }
+
+  function createDefaultWeek(monday) {
+    const meals = {};
+    for (let day = 0; day < 7; day += 1) {
+      const date = addDays(monday, day);
+      meals[date] = { breakfast: 'breakfast-fixed', lunch: defaultMealTemplate[day].lunch, snack: defaultMealTemplate[day].snack, dinner: defaultMealTemplate[day].dinner };
+    }
+    return {
+      sessions: [
+        { id: uid(), date: addDays(monday, 0), name: 'BodyPump', type: 'bodypump', routineKey: null, start: '18:00', duration: 60, status: 'planned', optional: false, notes: '', workoutLog: {} },
+        { id: uid(), date: addDays(monday, 2), name: 'Fuerza A', type: 'strength', routineKey: 'A', start: '19:00', duration: 60, status: 'planned', optional: false, notes: '', workoutLog: {} },
+        { id: uid(), date: addDays(monday, 4), name: 'BodyPump', type: 'bodypump', routineKey: null, start: '19:00', duration: 60, status: 'planned', optional: false, notes: '', workoutLog: {} },
+        { id: uid(), date: addDays(monday, 6), name: 'Fuerza B', type: 'strength', routineKey: 'B', start: '11:00', duration: 50, status: 'planned', optional: true, notes: '', workoutLog: {} }
+      ],
+      unavailableDates: [],
+      meals,
+      shoppingStatus: {},
+      customShopping: []
+    };
+  }
+
+  function normalizeWeek(week) {
+    week.sessions ||= [];
+    week.unavailableDates ||= [];
+    week.meals ||= {};
+    week.shoppingStatus ||= {};
+    week.customShopping ||= [];
+    week.sessions.forEach(session => {
+      session.workoutLog ||= {};
+      if (session.type === 'strength-b') { session.type = 'strength'; session.routineKey = 'B'; }
+      if (session.type === 'strength' && !session.routineKey) session.routineKey = session.name.toLowerCase().includes('b') ? 'B' : 'A';
+    });
+    return week;
+  }
+
+  function getWeek(monday = state.ui.selectedWeek) {
+    if (!state.weeks[monday]) state.weeks[monday] = createDefaultWeek(monday);
+    normalizeWeek(state.weeks[monday]);
+    for (let day = 0; day < 7; day += 1) {
+      const date = addDays(monday, day);
+      state.weeks[monday].meals[date] ||= { breakfast: 'breakfast-fixed', lunch: defaultMealTemplate[day].lunch, snack: defaultMealTemplate[day].snack, dinner: defaultMealTemplate[day].dinner };
+    }
+    saveState();
+    return state.weeks[monday];
+  }
+
+  function unavailableEntry(week, date) {
+    return week.unavailableDates.find(item => item.date === date) || null;
+  }
+
+  function sessionExercises(session) {
+    if (session.type === 'bodypump') return bodyPumpExercises;
+    return state.routines[session.routineKey || 'A']?.exercises || [];
+  }
+
+  function setRoute(route) {
+    state.ui.route = route;
+    saveState();
+    render();
+  }
+
+  function nextWorkout() {
+    const now = new Date();
+    const today = isoDate(now);
+    const nowClock = `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
+    const currentMonday = startOfWeek(now);
+    const selectedMonday = state.ui.selectedWeek;
+    const selected = getWeek(selectedMonday).sessions.filter(s => s.status === 'planned');
+    if (selectedMonday !== currentMonday) return selected.sort((a, b) => `${a.date}T${a.start}`.localeCompare(`${b.date}T${b.start}`))[0] || null;
+    const future = selected.filter(s => s.date > today || (s.date === today && s.start >= nowClock)).sort((a, b) => `${a.date}T${a.start}`.localeCompare(`${b.date}T${b.start}`));
+    if (future[0]) return future[0];
+    return getWeek(addDays(currentMonday, 7)).sessions.filter(s => s.status === 'planned').sort((a, b) => `${a.date}T${a.start}`.localeCompare(`${b.date}T${b.start}`))[0] || null;
+  }
+
+  function render() {
+    const route = state.ui.route;
+    $$('.nav-item').forEach(btn => btn.classList.toggle('active', btn.dataset.route === route));
+    const titles = { week: 'Semana', training: 'Entrenamiento', meals: 'Comidas', shopping: 'Lista de la compra', progress: 'Progreso' };
+    $('#pageTitle').textContent = titles[route] || 'Forma';
+    $('#todayLabel').textContent = new Date().toLocaleDateString('es-ES', { weekday: 'long', day: 'numeric', month: 'long' });
+    if (route === 'week') renderWeek();
+    if (route === 'training') renderTraining();
+    if (route === 'meals') renderMeals();
+    if (route === 'shopping') renderShopping();
+    if (route === 'progress') renderProgress();
+  }
+
+  function workoutProgress(session) {
+    const exercises = sessionExercises(session);
+    const done = exercises.filter(ex => session.workoutLog?.[ex.id]?.done).length;
+    return { done, total: exercises.length };
+  }
+
+  function renderWeek() {
+    const monday = state.ui.selectedWeek;
+    const week = getWeek(monday);
+    const completed = week.sessions.filter(s => !s.optional && s.status === 'completed').length;
+    const required = week.sessions.filter(s => !s.optional).length;
+    const next = nextWorkout();
+
+    const daysHtml = Array.from({ length: 7 }, (_, day) => {
+      const date = addDays(monday, day);
+      const uni = state.university.find(item => item.day === day);
+      const sessions = week.sessions.filter(s => s.date === date).sort((a, b) => a.start.localeCompare(b.start));
+      const unavailable = unavailableEntry(week, date);
+      const isToday = date === isoDate(new Date());
+      const events = [];
+      if (uni) events.push(`<div class="event class"><span class="event-icon">🎓</span><div><strong>${escapeHtml(uni.label)}</strong><small>${uni.start}–${uni.end}</small></div><span></span></div>`);
+      sessions.forEach(session => {
+        const icon = session.type === 'bodypump' ? '🏋️' : '💪';
+        const progress = workoutProgress(session);
+        const statusIcon = session.status === 'completed' ? '✓' : session.status === 'skipped' ? '×' : '›';
+        const detail = session.status === 'planned' && progress.done ? `${progress.done}/${progress.total} ejercicios · ` : '';
+        events.push(`<button class="event training ${session.status}" data-action="open-workout" data-id="${session.id}"><span class="event-icon">${icon}</span><div><strong>${escapeHtml(session.name)}${session.optional ? ' · opcional' : ''}</strong><small>${detail}${session.start} · ${session.duration} min</small></div><span>${statusIcon}</span></button>`);
+      });
+      if (unavailable) events.push(`<div class="event unavailable-event"><span class="event-icon">🚫</span><div><strong>No puedo entrenar</strong><small>${escapeHtml(unavailable.reason || 'Día bloqueado')}${unavailable.lunchOutside || unavailable.dinnerOutside ? ' · comida ajustada' : ''}</small></div><span></span></div>`);
+      return `<article class="card day-card ${isToday ? 'today' : ''} ${unavailable ? 'unavailable' : ''}">
+        <div class="day-head"><div><h3>${DAY_NAMES[day]}</h3><p class="muted small">${formatDate(date, { day: 'numeric', month: 'long' })}</p></div>
+        <button class="chip-button ${unavailable ? 'active' : ''}" data-action="availability" data-date="${date}">${unavailable ? 'Día bloqueado' : 'No puedo entrenar'}</button></div>
+        <div class="day-events">${events.length ? events.join('') : '<div class="empty-state">Sin eventos</div>'}</div>
+      </article>`;
+    }).join('');
+
+    $('#mainContent').innerHTML = `
+      <section class="card hero"><p class="eyebrow">Objetivo · ${escapeHtml(state.profile.goal)}</p><h2>${next ? `${escapeHtml(next.name)} · ${formatDate(next.date)} a las ${next.start}` : 'Semana lista'}</h2><p class="muted">Marca los días en los que no puedes entrenar y la app recolocará las sesiones y el extra asociado al entrenamiento.</p><div class="metric-grid"><div class="metric"><strong>${completed}/${required}</strong><span>sesiones base</span></div><div class="metric"><strong>${state.profile.calorieTarget}</strong><span>kcal orientativas</span></div><div class="metric"><strong>${state.profile.proteinTarget} g</strong><span>proteína</span></div></div></section>
+      <section class="section"><div class="week-toolbar"><button class="button secondary" data-action="prev-week">‹</button><strong>${formatWeekRange(monday)}</strong><button class="button secondary" data-action="next-week">›</button></div><div class="button-row"><button class="button" data-action="reorganize">Reorganizar semana</button><button class="button ghost" data-action="today-week">Semana actual</button></div></section>
+      <section class="section day-grid">${daysHtml}</section>
+      <section class="section card notice primary"><strong>Disponibilidad aplicada:</strong> de lunes a viernes la reorganización no utiliza horas anteriores a las ${state.settings.weekdayEarliest}. Esta hora se puede cambiar en Progreso → Ajustes.</section>`;
+  }
+
+  function isAllowedCandidate(day, start) {
+    if (day >= 5) return true;
+    return timeToMinutes(start) >= timeToMinutes(state.settings.weekdayEarliest || '15:30');
+  }
+
+  function scheduleConflict(week, date, start, end, ignoreSessionId = null) {
+    const day = dayIndexFromIso(date);
+    const startMin = timeToMinutes(start);
+    const endMin = timeToMinutes(end);
+    const uni = state.university.find(item => item.day === day);
+    if (uni && startMin < timeToMinutes(uni.end) && endMin > timeToMinutes(uni.start)) return true;
+    return week.sessions.some(s => s.id !== ignoreSessionId && s.date === date && s.status !== 'skipped' && startMin < timeToMinutes(s.start) + Number(s.duration || 60) && endMin > timeToMinutes(s.start));
+  }
+
+  function candidateList(session, monday) {
+    let candidates = [];
+    if (session.type === 'bodypump') {
+      candidates = state.gymClasses.filter(c => c.name.toLowerCase().includes('bodypump'));
+    } else if ((session.routineKey || 'A') === 'A') {
+      candidates = [
+        ...state.gymClasses.filter(c => c.name.toLowerCase().includes('strength')),
+        { day: 0, name: 'Fuerza A', start: '19:30', end: '20:30' },
+        { day: 1, name: 'Fuerza A', start: '18:00', end: '19:00' },
+        { day: 2, name: 'Fuerza A', start: '18:30', end: '19:30' },
+        { day: 3, name: 'Fuerza A', start: '17:30', end: '18:30' },
+        { day: 4, name: 'Fuerza A', start: '17:00', end: '18:00' },
+        { day: 5, name: 'Fuerza A', start: '12:00', end: '13:00' },
+        { day: 6, name: 'Fuerza A', start: '11:00', end: '12:00' }
+      ];
+    } else {
+      candidates = [
+        { day: 1, name: 'Fuerza B', start: '18:00', end: '18:50' },
+        { day: 3, name: 'Fuerza B', start: '17:30', end: '18:20' },
+        { day: 5, name: 'Fuerza B', start: '12:00', end: '12:50' },
+        { day: 6, name: 'Fuerza B', start: '11:00', end: '11:50' }
+      ];
+    }
+    return candidates.map(c => ({ ...c, date: addDays(monday, c.day) })).filter(c => isAllowedCandidate(c.day, c.start));
+  }
+
+  function adaptMealsAfterMove(week, oldDate, newDate) {
+    const oldPlan = week.meals[oldDate];
+    const newPlan = week.meals[newDate];
+    if (!oldPlan || !newPlan) return;
+    const oldStillTrains = week.sessions.some(s => s.date === oldDate && s.status === 'planned');
+    if (!newPlan.snack) newPlan.snack = oldPlan.snack || 'milk-banana';
+    if (!oldStillTrains && unavailableEntry(week, oldDate) && ['milk-banana', 'yogurt-fruit'].includes(oldPlan.snack)) oldPlan.snack = null;
+  }
+
+  function reorganizeWeek(silent = false) {
+    const monday = state.ui.selectedWeek;
+    const week = getWeek(monday);
+    const blockedDates = new Set(week.unavailableDates.map(item => item.date));
+    const sessionsToMove = week.sessions.filter(s => s.status === 'planned' && blockedDates.has(s.date));
+    const moved = [];
+    const blocked = [];
+
+    sessionsToMove.forEach(session => {
+      const originalDay = dayIndexFromIso(session.date);
+      const candidates = candidateList(session, monday)
+        .filter(c => !blockedDates.has(c.date))
+        .filter(c => !scheduleConflict(week, c.date, c.start, c.end, session.id))
+        .sort((a, b) => Math.abs(a.day - originalDay) - Math.abs(b.day - originalDay) || a.start.localeCompare(b.start));
+      const candidate = candidates[0];
+      if (!candidate) {
+        blocked.push(session.name);
+        return;
+      }
+      const oldDate = session.date;
+      session.date = candidate.date;
+      session.start = candidate.start;
+      session.duration = durationBetween(candidate.start, candidate.end);
+      if (session.type === 'bodypump') session.name = 'BodyPump';
+      adaptMealsAfterMove(week, oldDate, session.date);
+      moved.push(`${formatDate(oldDate)} → ${formatDate(session.date)} ${session.start}`);
+    });
+
+    week.unavailableDates.forEach(item => {
+      const plan = week.meals[item.date];
+      if (!plan) return;
+      if (item.lunchOutside) plan.lunch = 'social-meal';
+      if (item.dinnerOutside) plan.dinner = 'social-meal';
+      if (!week.sessions.some(s => s.date === item.date && s.status === 'planned') && ['milk-banana', 'yogurt-fruit'].includes(plan.snack)) plan.snack = null;
+    });
+
+    saveState();
+    render();
+    if (!silent) {
+      const message = moved.length ? `Sesiones recolocadas:\n• ${moved.join('\n• ')}` : 'No había entrenamientos que mover.';
+      alert(`${message}${blocked.length ? `\n\nNo he encontrado hueco automático para: ${blocked.join(', ')}. Puedes editar esa sesión manualmente.` : ''}`);
+    } else if (blocked.length) {
+      alert(`El día se ha bloqueado, pero no he encontrado hueco automático para: ${blocked.join(', ')}. Puedes editar la sesión manualmente.`);
+    }
+  }
+
+  function renderTraining() {
+    const monday = state.ui.selectedWeek;
+    const week = getWeek(monday);
+    const sessions = [...week.sessions].sort((a, b) => `${a.date}T${a.start}`.localeCompare(`${b.date}T${b.start}`));
+    const sessionCards = sessions.map(session => {
+      const p = workoutProgress(session);
+      const pct = p.total ? Math.round((p.done / p.total) * 100) : 0;
+      return `<article class="card workout-card"><div class="row-between"><div><p class="eyebrow">${DAY_NAMES[dayIndexFromIso(session.date)]} · ${formatDate(session.date)}</p><h2>${escapeHtml(session.name)}${session.optional ? ' · opcional' : ''}</h2><p class="muted small">${session.start} · ${session.duration} min</p></div><span class="pill ${session.status === 'completed' ? 'green' : p.done ? 'amber' : 'primary'}">${session.status === 'completed' ? 'Completado' : `${p.done}/${p.total}`}</span></div><div class="mini-progress"><span style="width:${session.status === 'completed' ? 100 : pct}%"></span></div><button class="button full" data-action="open-workout" data-id="${session.id}">${p.done ? 'Continuar entrenamiento' : 'Abrir entrenamiento'}</button></article>`;
+    }).join('');
+
+    const routines = Object.entries(state.routines).map(([key, routine]) => `<details class="card routine-summary"><summary><div><p class="eyebrow">Rutina ${key}</p><strong>${escapeHtml(routine.name)}</strong></div><span>Ver ejercicios</span></summary><div class="routine-list">${routine.exercises.map(ex => `<div class="routine-line"><div><strong>${escapeHtml(ex.name)}</strong><small>${ex.sets} × ${escapeHtml(ex.reps)}</small></div><button class="text-button" data-action="edit-exercise" data-routine="${key}" data-id="${ex.id}">Editar</button></div>`).join('')}<button class="button secondary full" data-action="add-exercise" data-routine="${key}">Añadir ejercicio</button></div></details>`).join('');
+
+    const classes = DAY_NAMES.map((name, day) => {
+      const items = state.gymClasses.filter(c => c.day === day).sort((a, b) => a.start.localeCompare(b.start));
+      if (!items.length) return '';
+      return `<div class="shopping-category"><h3>${name}</h3>${items.map(c => `<div class="class-line"><span>${c.start}</span><strong>${escapeHtml(c.name)}</strong><button class="text-button" data-action="edit-class" data-id="${c.id}">Editar</button></div>`).join('')}</div>`;
+    }).join('');
+
+    $('#mainContent').innerHTML = `
+      <section class="card hero"><p class="eyebrow">Registro dentro de cada sesión</p><h2>Entrena y anota en el mismo sitio</h2><p class="muted">Abre el entrenamiento, consulta la explicación de cada ejercicio y guarda peso, series, repeticiones y sensaciones mientras avanzas.</p></section>
+      <section class="section week-toolbar"><button class="button secondary" data-action="prev-week">‹</button><strong>${formatWeekRange(monday)}</strong><button class="button secondary" data-action="next-week">›</button></section>
+      <section class="section workout-list">${sessionCards}</section>
+      <section class="section"><div class="section-title-row"><h2>Rutinas editables</h2></div>${routines}</section>
+      <details class="section card routine-summary"><summary><div><p class="eyebrow">Horario editable</p><strong>Clases del gimnasio</strong></div><span>Mostrar</span></summary><div class="routine-list">${classes}<button class="button secondary full" data-action="add-class">Añadir clase</button></div></details>`;
+  }
+
+  function lastExercisePerformance(exerciseId, beforeDate = '9999-12-31', excludeSessionId = null) {
+    const entries = [];
+    Object.values(state.weeks).forEach(week => (week.sessions || []).forEach(session => {
+      if (session.id === excludeSessionId || session.date > beforeDate) return;
+      const log = session.workoutLog?.[exerciseId];
+      if (log && (log.weight !== '' || log.reps || log.done)) entries.push({ ...log, date: session.date, sessionName: session.name });
+    }));
+    return entries.sort((a, b) => b.date.localeCompare(a.date))[0] || null;
+  }
+
+  function openWorkoutModal(sessionId) {
+    const week = getWeek();
+    const session = week.sessions.find(s => s.id === sessionId);
+    if (!session) return;
+    const exercises = sessionExercises(session);
+    const rows = exercises.map(ex => {
+      const log = session.workoutLog?.[ex.id] || {};
+      const last = lastExercisePerformance(ex.id, session.date, session.id);
+      return `<article class="workout-exercise" data-exercise="${ex.id}"><div class="exercise-title"><label class="exercise-check"><input type="checkbox" class="check" data-field="done" ${log.done ? 'checked' : ''}><span></span></label><div><strong>${escapeHtml(ex.name)}</strong><small>${ex.sets} × ${escapeHtml(ex.reps)}${last ? ` · Anterior: ${last.weight || '—'} kg, ${escapeHtml(last.reps || '')}` : ''}</small></div></div><details class="exercise-help"><summary>Cómo hacerlo</summary><p>${escapeHtml(ex.explanation || 'Mantén una técnica controlada y detén la serie si aparece dolor.')}</p></details><div class="exercise-inputs"><label>Peso kg<input type="number" min="0" step="0.25" data-field="weight" value="${log.weight ?? last?.weight ?? ''}"></label><label>Series<input type="number" min="1" data-field="sets" value="${log.sets ?? ex.sets}"></label><label>Reps<input data-field="reps" value="${escapeHtml(log.reps ?? ex.reps)}"></label><label>RIR<input type="number" min="0" max="5" data-field="rir" value="${log.rir ?? 2}"></label></div><label class="field compact">Notas<input data-field="notes" value="${escapeHtml(log.notes || '')}" placeholder="Técnica, molestias, próxima subida..."></label></article>`;
+    }).join('');
+
+    openModal({
+      eyebrow: `${DAY_NAMES[dayIndexFromIso(session.date)]} · ${formatDate(session.date)}`,
+      title: session.name,
+      body: `<div class="form-grid two"><label class="field">Fecha<input id="sessionDate" type="date" value="${session.date}"></label><label class="field">Hora<input id="sessionStart" type="time" value="${session.start}"></label><label class="field">Duración (min)<input id="sessionDuration" type="number" min="15" value="${session.duration}"></label><label class="field">Estado<select id="sessionStatus"><option value="planned" ${session.status === 'planned' ? 'selected' : ''}>Planificado</option><option value="completed" ${session.status === 'completed' ? 'selected' : ''}>Completado</option><option value="skipped" ${session.status === 'skipped' ? 'selected' : ''}>No realizado</option></select></label></div><div class="notice primary" style="margin-top:12px">Marca cada ejercicio al terminarlo. Puedes guardar aunque el entrenamiento esté a medias y continuar después.</div><div class="workout-exercises">${rows}</div><label class="field">Notas generales<textarea id="sessionNotes">${escapeHtml(session.notes || '')}</textarea></label>`,
+      actions: '<button type="button" class="button danger" id="deleteSession">Eliminar</button><button type="button" class="button secondary" id="cancelModal">Cerrar</button><button type="button" class="button" id="saveWorkout">Guardar progreso</button>'
+    });
+    $('#cancelModal').onclick = closeModal;
+    $('#deleteSession').onclick = () => { if (confirm('¿Eliminar este entrenamiento?')) { week.sessions = week.sessions.filter(s => s.id !== session.id); saveState(); closeModal(); render(); } };
+    $('#saveWorkout').onclick = () => {
+      session.date = $('#sessionDate').value;
+      session.start = $('#sessionStart').value;
+      session.duration = Number($('#sessionDuration').value || 60);
+      session.status = $('#sessionStatus').value;
+      session.notes = $('#sessionNotes').value.trim();
+      session.workoutLog ||= {};
+      $$('.workout-exercise', $('#modalBody')).forEach(row => {
+        const exId = row.dataset.exercise;
+        const value = field => $(`[data-field="${field}"]`, row);
+        session.workoutLog[exId] = {
+          done: value('done').checked,
+          weight: value('weight').value === '' ? '' : Number(value('weight').value),
+          sets: Number(value('sets').value || 0),
+          reps: value('reps').value.trim(),
+          rir: value('rir').value === '' ? '' : Number(value('rir').value),
+          notes: value('notes').value.trim()
+        };
+      });
+      const allDone = exercises.length && exercises.every(ex => session.workoutLog[ex.id]?.done);
+      if (allDone && session.status === 'planned') session.status = 'completed';
+      saveState(); closeModal(); render();
+    };
+  }
+
+  function openSessionCreateModal() {
+    openModal({ eyebrow: 'Plan semanal', title: 'Añadir entrenamiento', body: `<div class="form-grid two"><label class="field">Tipo<select id="newSessionType"><option value="bodypump">BodyPump</option><option value="A">Fuerza A</option><option value="B">Fuerza B</option></select></label><label class="field">Fecha<input id="newSessionDate" type="date" value="${state.ui.selectedWeek}"></label><label class="field">Hora<input id="newSessionStart" type="time" value="18:00"></label><label class="field">Duración<input id="newSessionDuration" type="number" value="60"></label></div><label class="toggle-row"><span>Sesión opcional</span><span class="switch"><input id="newSessionOptional" type="checkbox"><span></span></span></label>`, actions: '<button type="button" class="button secondary" id="cancelModal">Cancelar</button><button type="button" class="button" id="saveNewSession">Añadir</button>' });
+    $('#cancelModal').onclick = closeModal;
+    $('#saveNewSession').onclick = () => {
+      const type = $('#newSessionType').value;
+      const session = { id: uid(), date: $('#newSessionDate').value, start: $('#newSessionStart').value, duration: Number($('#newSessionDuration').value || 60), status: 'planned', optional: $('#newSessionOptional').checked, notes: '', workoutLog: {} };
+      if (type === 'bodypump') Object.assign(session, { name: 'BodyPump', type: 'bodypump', routineKey: null });
+      else Object.assign(session, { name: `Fuerza ${type}`, type: 'strength', routineKey: type });
+      getWeek(startOfWeek(parseDate(session.date))).sessions.push(session);
+      saveState(); closeModal(); render();
+    };
+  }
+
+  function openAvailabilityModal(date) {
+    const week = getWeek(startOfWeek(parseDate(date)));
+    const current = unavailableEntry(week, date);
+    openModal({
+      eyebrow: `${DAY_NAMES[dayIndexFromIso(date)]} · ${formatDate(date)}`,
+      title: current ? 'Editar día bloqueado' : 'No puedo entrenar este día',
+      body: `<p class="muted">La app moverá los entrenamientos de este día a otro hueco compatible. Entre semana no usará horas anteriores a las ${state.settings.weekdayEarliest}.</p><label class="field">Motivo opcional<input id="availabilityReason" value="${escapeHtml(current?.reason || '')}" placeholder="Viaje, estudio, cansancio tras salir..."></label><div class="card inset-card"><p><strong>¿También comerás fuera?</strong></p><label class="toggle-row"><span>Comida fuera</span><span class="switch"><input id="availabilityLunch" type="checkbox" ${current?.lunchOutside ? 'checked' : ''}><span></span></span></label><label class="toggle-row"><span>Cena fuera</span><span class="switch"><input id="availabilityDinner" type="checkbox" ${current?.dinnerOutside ? 'checked' : ''}><span></span></span></label></div><p class="muted small">Si marcas una comida, se sustituirá por “comida o cena fuera”. El extra de entrenamiento se moverá al nuevo día.</p>`,
+      actions: `${current ? '<button type="button" class="button danger" id="removeUnavailable">Volver a dejar disponible</button>' : ''}<button type="button" class="button secondary" id="cancelModal">Cancelar</button><button type="button" class="button" id="saveUnavailable">Guardar y reorganizar</button>`
+    });
+    $('#cancelModal').onclick = closeModal;
+    if ($('#removeUnavailable')) $('#removeUnavailable').onclick = () => { week.unavailableDates = week.unavailableDates.filter(item => item.date !== date); saveState(); closeModal(); render(); };
+    $('#saveUnavailable').onclick = () => {
+      const entry = { date, reason: $('#availabilityReason').value.trim(), lunchOutside: $('#availabilityLunch').checked, dinnerOutside: $('#availabilityDinner').checked };
+      week.unavailableDates = week.unavailableDates.filter(item => item.date !== date);
+      week.unavailableDates.push(entry);
+      state.ui.selectedWeek = startOfWeek(parseDate(date));
+      saveState(); closeModal(); reorganizeWeek(true);
+    };
+  }
+
+  function renderIngredientList(meal) {
+    if (!meal?.ingredients?.length) return '<span class="muted tiny">Sin ingredientes para comprar</span>';
+    return `<ul class="ingredient-list">${meal.ingredients.map(ing => `<li><strong>${Number(ing.quantity)} ${escapeHtml(ing.unit)}</strong> ${escapeHtml(ing.name)}</li>`).join('')}</ul>`;
+  }
+
+  function renderMeals() {
+    const monday = state.ui.selectedWeek;
+    const week = getWeek(monday);
+    const days = Array.from({ length: 7 }, (_, day) => {
+      const date = addDays(monday, day);
+      const plan = week.meals[date];
+      let kcal = 0;
+      let protein = 0;
+      const rows = ['breakfast', 'lunch', 'snack', 'dinner'].map(slot => {
+        const meal = mealById(plan?.[slot]);
+        if (meal) { kcal += Number(meal.kcal || 0); protein += Number(meal.protein || 0); }
+        return `<div class="meal-detail-row"><button class="meal-main-button" data-action="edit-meal" data-date="${date}" data-slot="${slot}"><span class="meal-slot">${SLOT_LABELS[slot]}</span><span><strong>${meal ? escapeHtml(meal.name) : 'Sin planificar'}</strong><small>${meal ? `${meal.kcal} kcal · ${meal.protein} g proteína` : 'Toca para añadir'}</small></span><span>›</span></button>${meal ? renderIngredientList(meal) : ''}</div>`;
+      }).join('');
+      return `<article class="card meal-day"><div class="card-title-row"><div><h3>${DAY_NAMES[day]}</h3><p class="muted small">${formatDate(date)}</p></div><span class="pill ${protein >= state.profile.proteinTarget ? 'green' : 'amber'}">${protein} g proteína</span></div>${rows}<div class="meal-summary"><span class="pill primary">${kcal} kcal</span><span class="pill">Objetivo ${state.profile.calorieTarget}</span></div></article>`;
+    }).join('');
+
+    $('#mainContent').innerHTML = `<section class="card hero"><p class="eyebrow">Cantidades visibles</p><h2>Menú semanal y lista automática</h2><p class="muted">Las cantidades son por ración y arroz, pasta y soja aparecen en peso seco. Toca cualquier plato para cambiarlo.</p></section><section class="section week-toolbar"><button class="button secondary" data-action="prev-week">‹</button><strong>${formatWeekRange(monday)}</strong><button class="button secondary" data-action="next-week">›</button></section><section class="section meal-week-grid">${days}</section><section class="section card"><div class="card-title-row"><div><h2>Mis platos</h2><p class="muted small">Añade opciones propias con sus cantidades.</p></div><button class="button" data-action="add-meal-library">Nuevo plato</button></div></section>`;
+  }
+
+  function openMealModal(date, slot) {
+    const week = getWeek(startOfWeek(parseDate(date)));
+    const current = week.meals[date]?.[slot] || '';
+    const suitable = state.mealLibrary.filter(meal => slot === 'breakfast' ? ['breakfast', 'snack'].includes(meal.type) : slot === 'snack' ? ['snack', 'social'].includes(meal.type) : meal.type !== 'breakfast');
+    const options = suitable.map(meal => `<option value="${meal.id}" ${current === meal.id ? 'selected' : ''}>${escapeHtml(meal.name)} · ${meal.kcal} kcal · ${meal.protein} g</option>`).join('');
+    openModal({ eyebrow: `${DAY_NAMES[dayIndexFromIso(date)]} · ${SLOT_LABELS[slot]}`, title: 'Cambiar plato', body: `<label class="field">Elige una opción<select id="mealSelect"><option value="">Sin planificar</option>${options}</select></label><div id="mealPreview" class="card inset-card" style="margin-top:12px"></div>`, actions: '<button type="button" class="button secondary" id="cancelModal">Cancelar</button><button type="button" class="button" id="saveMealChoice">Guardar</button>' });
+    const updatePreview = () => { const meal = mealById($('#mealSelect').value); $('#mealPreview').innerHTML = meal ? `<h3>${escapeHtml(meal.name)}</h3>${renderIngredientList(meal)}` : '<p class="muted">Sin plato seleccionado.</p>'; };
+    $('#mealSelect').onchange = updatePreview;
+    updatePreview();
+    $('#cancelModal').onclick = closeModal;
+    $('#saveMealChoice').onclick = () => { week.meals[date][slot] = $('#mealSelect').value || null; saveState(); closeModal(); render(); };
+  }
+
+  function openMealLibraryModal() {
+    openModal({ eyebrow: 'Biblioteca de platos', title: 'Nuevo plato', body: `<div class="form-grid two"><label class="field">Nombre<input id="mealName"></label><label class="field">Tipo<select id="mealType"><option value="main">Comida o cena</option><option value="snack">Extra</option><option value="breakfast">Desayuno</option><option value="social">Social</option></select></label><label class="field">Calorías<input id="mealKcal" type="number" min="0"></label><label class="field">Proteína (g)<input id="mealProtein" type="number" min="0"></label></div><label class="field" style="margin-top:12px">Ingredientes, uno por línea<textarea id="mealIngredients" placeholder="Pasta en seco | 80 | g | Despensa\nAtún en lata | 1 | ud | Conservas"></textarea></label><p class="muted tiny">Formato: nombre | cantidad | unidad | categoría</p>`, actions: '<button type="button" class="button secondary" id="cancelModal">Cancelar</button><button type="button" class="button" id="saveMealLibrary">Guardar</button>' });
+    $('#cancelModal').onclick = closeModal;
+    $('#saveMealLibrary').onclick = () => {
+      const name = $('#mealName').value.trim();
+      if (!name) return;
+      const ingredients = $('#mealIngredients').value.split('\n').map(line => line.split('|').map(v => v.trim())).filter(parts => parts[0]).map(parts => ({ name: parts[0], quantity: Number(parts[1] || 1), unit: parts[2] || 'ud', category: parts[3] || 'Otros' }));
+      state.mealLibrary.push({ id: uid(), name, type: $('#mealType').value, kcal: Number($('#mealKcal').value || 0), protein: Number($('#mealProtein').value || 0), ingredients });
+      saveState(); closeModal(); render();
+    };
+  }
+
+  function generatedShoppingItems() {
+    const week = getWeek();
+    const aggregate = new Map();
+    Object.values(week.meals).forEach(plan => Object.values(plan || {}).forEach(mealId => {
+      const meal = mealById(mealId);
+      if (!meal) return;
+      meal.ingredients.forEach(ing => {
+        const key = `${ing.name}|${ing.unit}`;
+        if (!aggregate.has(key)) aggregate.set(key, { key, name: ing.name, quantity: 0, unit: ing.unit, category: ing.category || 'Otros' });
+        aggregate.get(key).quantity += Number(ing.quantity || 0);
+      });
+    }));
+    return [...aggregate.values()].map(item => {
+      const catalog = priceCatalog[item.key];
+      const estimated = catalog ? Math.ceil(item.quantity / catalog.packQty) * catalog.packPrice : 0;
+      return { ...item, estimated: Number(estimated.toFixed(2)) };
+    });
+  }
+
+  function shoppingStatusFor(item) {
+    const week = getWeek();
+    if (!week.shoppingStatus[item.key]) week.shoppingStatus[item.key] = { bought: false, have: false, cost: item.estimated, quantityText: `${Math.ceil(item.quantity)} ${item.unit}` };
+    return week.shoppingStatus[item.key];
+  }
+
+  function shoppingTotal() {
+    let total = 0;
+    generatedShoppingItems().forEach(item => { const status = shoppingStatusFor(item); if (!status.have) total += Number(status.cost || 0); });
+    getWeek().customShopping.forEach(item => { if (!item.have) total += Number(item.cost || 0); });
+    return total;
+  }
+
+  function renderShopping() {
+    const week = getWeek();
+    const generated = generatedShoppingItems();
+    const all = [...generated.map(item => ({ ...item, custom: false })), ...week.customShopping.map(item => ({ ...item, custom: true, key: item.id }))];
+    const grouped = all.reduce((acc, item) => { (acc[item.category || 'Otros'] ||= []).push(item); return acc; }, {});
+    const total = shoppingTotal();
+    const budget = Number(state.profile.weeklyBudget || 25);
+    const percentage = Math.min(100, (total / budget) * 100);
+    const categories = Object.entries(grouped).map(([category, items]) => `<div class="shopping-category"><h3>${escapeHtml(category)}</h3>${items.map(item => {
+      const status = item.custom ? item : shoppingStatusFor(item);
+      return `<div class="shopping-row ${status.bought ? 'done' : ''}" data-key="${escapeHtml(item.key)}" data-custom="${item.custom}"><input class="check" type="checkbox" data-action="shopping-bought" ${status.bought ? 'checked' : ''}><div class="item-name"><strong>${escapeHtml(item.name)}</strong><div><button class="text-button tiny" data-action="shopping-have">${status.have ? 'Ya no lo tengo' : 'Ya lo tengo'}</button>${item.custom ? '<button class="text-button tiny" data-action="delete-shopping">Eliminar</button>' : ''}</div></div><input class="inline-input qty-input" value="${escapeHtml(status.quantityText || '')}" data-action="shopping-qty"><input class="inline-input price-input" type="number" min="0" step="0.01" value="${Number(status.cost || 0).toFixed(2)}" data-action="shopping-cost"></div>`;
+    }).join('')}</div>`).join('');
+    $('#mainContent').innerHTML = `<section class="card hero"><p class="eyebrow">Presupuesto semanal</p><h2>${total.toFixed(2)} € de ${budget.toFixed(2)} €</h2><p class="muted">Marca “ya lo tengo” para excluirlo. Cantidades y precios son editables.</p><div class="budget-bar ${total > budget ? 'over' : ''}"><span style="width:${percentage}%"></span></div></section><section class="section button-row"><button class="button" data-action="add-shopping">Añadir producto</button><button class="button secondary" data-action="copy-shopping">Copiar lista</button><button class="button ghost" data-action="reset-shopping-checks">Desmarcar</button></section><section class="section card">${categories || '<div class="empty-state">No hay ingredientes</div>'}</section>`;
+  }
+
+  function openShoppingModal() {
+    openModal({ eyebrow: 'Lista de la compra', title: 'Añadir producto', body: `<div class="form-grid two"><label class="field">Producto<input id="shoppingName"></label><label class="field">Categoría<input id="shoppingCategory" value="Otros"></label><label class="field">Cantidad<input id="shoppingQuantity" placeholder="1 paquete"></label><label class="field">Precio estimado (€)<input id="shoppingCost" type="number" min="0" step="0.01"></label></div>`, actions: '<button type="button" class="button secondary" id="cancelModal">Cancelar</button><button type="button" class="button" id="saveShopping">Añadir</button>' });
+    $('#cancelModal').onclick = closeModal;
+    $('#saveShopping').onclick = () => {
+      const name = $('#shoppingName').value.trim(); if (!name) return;
+      getWeek().customShopping.push({ id: uid(), name, category: $('#shoppingCategory').value.trim() || 'Otros', quantityText: $('#shoppingQuantity').value.trim() || '1 ud', cost: Number($('#shoppingCost').value || 0), bought: false, have: false });
+      saveState(); closeModal(); render();
+    };
+  }
+
+  function renderProgress() {
+    const entries = [...state.progress].sort((a, b) => b.date.localeCompare(a.date));
+    const latest = entries[0];
+    const previous = entries[1];
+    const change = latest && previous ? Number(latest.weight) - Number(previous.weight) : null;
+    $('#mainContent').innerHTML = `<section class="card hero"><p class="eyebrow">Tendencia, no perfección</p><h2>${latest ? `${latest.weight} kg · ${formatDate(latest.date)}` : 'Añade tu primera medición'}</h2><p class="muted">${change === null ? 'Mide en condiciones similares y observa varias semanas.' : `${change > 0 ? '+' : ''}${change.toFixed(1)} kg desde la anterior.`}</p></section><section class="section card"><div class="card-title-row"><div><h2>Evolución del peso</h2><p class="muted small">Una bajada lenta es compatible con la recomposición.</p></div><button class="button" data-action="add-progress">Añadir</button></div><div class="chart-wrap"><canvas id="progressChart" height="210"></canvas></div></section><section class="section card"><h2>Mediciones</h2>${entries.length ? entries.map(entry => `<div class="progress-row" style="grid-template-columns:1fr repeat(3,.6fr) auto"><div><strong>${formatDate(entry.date, { day:'numeric', month:'short', year:'numeric' })}</strong></div><span>${entry.weight || '—'} kg</span><span>${entry.waist || '—'} cm</span><span>${entry.bodyFat || '—'} %</span><button class="text-button" data-action="delete-progress" data-id="${entry.id}">Eliminar</button></div>`).join('') : '<div class="empty-state">Aún no hay mediciones</div>'}</section><section class="section card"><h2>Ajustes y copia</h2><div class="form-grid two"><label class="field">Objetivo kcal<input id="settingCalories" type="number" value="${state.profile.calorieTarget}"></label><label class="field">Proteína diaria (g)<input id="settingProtein" type="number" value="${state.profile.proteinTarget}"></label><label class="field">Presupuesto semanal (€)<input id="settingBudget" type="number" step="0.5" value="${state.profile.weeklyBudget}"></label><label class="field">Pasos diarios<input id="settingSteps" type="number" step="500" value="${state.profile.stepTarget}"></label><label class="field">Entre semana puedo desde<input id="settingEarliest" type="time" value="${state.settings.weekdayEarliest}"></label></div><div class="button-row" style="margin-top:14px"><button class="button" data-action="save-settings">Guardar ajustes</button><button class="button secondary" data-action="export-data">Exportar</button><button class="button secondary" data-action="import-data">Importar</button><button class="button danger" data-action="reset-app">Restablecer</button></div></section>`;
+    requestAnimationFrame(drawProgressChart);
+  }
+
+  function drawProgressChart() {
+    const canvas = $('#progressChart');
+    if (!canvas) return;
+    const entries = [...state.progress].filter(e => e.weight).sort((a, b) => a.date.localeCompare(b.date));
+    const rect = canvas.getBoundingClientRect();
+    const scale = window.devicePixelRatio || 1;
+    canvas.width = Math.max(300, rect.width) * scale;
+    canvas.height = 210 * scale;
+    const ctx = canvas.getContext('2d');
+    ctx.scale(scale, scale);
+    const width = canvas.width / scale;
+    const height = canvas.height / scale;
+    ctx.clearRect(0, 0, width, height);
+    if (entries.length < 2) { ctx.fillStyle = '#716b80'; ctx.font = '14px system-ui'; ctx.textAlign = 'center'; ctx.fillText('Añade al menos dos mediciones', width / 2, height / 2); return; }
+    const weights = entries.map(e => Number(e.weight));
+    const min = Math.min(...weights) - 0.5;
+    const max = Math.max(...weights) + 0.5;
+    const pad = { left: 34, right: 14, top: 20, bottom: 28 };
+    const x = i => pad.left + (i / (entries.length - 1)) * (width - pad.left - pad.right);
+    const y = value => pad.top + ((max - value) / (max - min || 1)) * (height - pad.top - pad.bottom);
+    ctx.strokeStyle = '#e4e0ec'; ctx.lineWidth = 1;
+    for (let i = 0; i < 4; i += 1) { const yy = pad.top + i * ((height - pad.top - pad.bottom) / 3); ctx.beginPath(); ctx.moveTo(pad.left, yy); ctx.lineTo(width - pad.right, yy); ctx.stroke(); }
+    ctx.strokeStyle = '#6f5be7'; ctx.lineWidth = 3; ctx.beginPath(); weights.forEach((w, i) => i ? ctx.lineTo(x(i), y(w)) : ctx.moveTo(x(i), y(w))); ctx.stroke();
+    ctx.fillStyle = '#6f5be7'; weights.forEach((w, i) => { ctx.beginPath(); ctx.arc(x(i), y(w), 4, 0, Math.PI * 2); ctx.fill(); });
+  }
+
+  function openProgressModal() {
+    openModal({ eyebrow: 'Seguimiento', title: 'Nueva medición', body: `<div class="form-grid two"><label class="field">Fecha<input id="progressDate" type="date" value="${isoDate(new Date())}"></label><label class="field">Peso (kg)<input id="progressWeight" type="number" min="35" max="150" step="0.1"></label><label class="field">Cintura (cm)<input id="progressWaist" type="number" min="40" step="0.1"></label><label class="field">Grasa estimada (%)<input id="progressFat" type="number" min="5" max="60" step="0.1"></label></div><label class="field">Notas<textarea id="progressNotes"></textarea></label>`, actions: '<button type="button" class="button secondary" id="cancelModal">Cancelar</button><button type="button" class="button" id="saveProgress">Guardar</button>' });
+    $('#cancelModal').onclick = closeModal;
+    $('#saveProgress').onclick = () => { const weight = $('#progressWeight').value; if (!weight) return; state.progress.push({ id: uid(), date: $('#progressDate').value, weight: Number(weight), waist: $('#progressWaist').value ? Number($('#progressWaist').value) : '', bodyFat: $('#progressFat').value ? Number($('#progressFat').value) : '', notes: $('#progressNotes').value.trim() }); saveState(); closeModal(); render(); };
+  }
+
+  function openExerciseEditModal(routineKey, exerciseId = null) {
+    const routine = state.routines[routineKey];
+    const exercise = exerciseId ? routine.exercises.find(e => e.id === exerciseId) : { id: uid(), name: '', sets: 3, reps: '8–12', explanation: '' };
+    openModal({ eyebrow: `Rutina ${routineKey}`, title: exerciseId ? 'Editar ejercicio' : 'Añadir ejercicio', body: `<div class="form-grid"><label class="field">Ejercicio<input id="exerciseName" value="${escapeHtml(exercise.name)}"></label><div class="form-grid two"><label class="field">Series<input id="exerciseSets" type="number" min="1" value="${exercise.sets}"></label><label class="field">Repeticiones<input id="exerciseReps" value="${escapeHtml(exercise.reps)}"></label></div><label class="field">Explicación<textarea id="exerciseExplanation">${escapeHtml(exercise.explanation || '')}</textarea></label></div>`, actions: `${exerciseId ? '<button type="button" class="button danger" id="deleteExercise">Eliminar</button>' : ''}<button type="button" class="button secondary" id="cancelModal">Cancelar</button><button type="button" class="button" id="saveExercise">Guardar</button>` });
+    $('#cancelModal').onclick = closeModal;
+    if ($('#deleteExercise')) $('#deleteExercise').onclick = () => { routine.exercises = routine.exercises.filter(e => e.id !== exercise.id); saveState(); closeModal(); render(); };
+    $('#saveExercise').onclick = () => { const payload = { ...exercise, name: $('#exerciseName').value.trim(), sets: Number($('#exerciseSets').value || 3), reps: $('#exerciseReps').value.trim() || '8–12', explanation: $('#exerciseExplanation').value.trim() }; if (!payload.name) return; routine.exercises = exerciseId ? routine.exercises.map(e => e.id === exercise.id ? payload : e) : [...routine.exercises, payload]; saveState(); closeModal(); render(); };
+  }
+
+  function openClassModal(classId = null) {
+    const item = classId ? state.gymClasses.find(c => c.id === classId) : { id: uid(), day: 0, name: 'BodyPump', start: '18:00', end: '19:00' };
+    openModal({ eyebrow: 'Horario del gimnasio', title: classId ? 'Editar clase' : 'Añadir clase', body: `<div class="form-grid two"><label class="field">Clase<input id="className" value="${escapeHtml(item.name)}"></label><label class="field">Día<select id="classDay">${DAY_NAMES.map((name, i) => `<option value="${i}" ${item.day === i ? 'selected' : ''}>${name}</option>`).join('')}</select></label><label class="field">Inicio<input id="classStart" type="time" value="${item.start}"></label><label class="field">Fin<input id="classEnd" type="time" value="${item.end}"></label></div>`, actions: `${classId ? '<button type="button" class="button danger" id="deleteClass">Eliminar</button>' : ''}<button type="button" class="button secondary" id="cancelModal">Cancelar</button><button type="button" class="button" id="saveClass">Guardar</button>` });
+    $('#cancelModal').onclick = closeModal;
+    if ($('#deleteClass')) $('#deleteClass').onclick = () => { state.gymClasses = state.gymClasses.filter(c => c.id !== item.id); saveState(); closeModal(); render(); };
+    $('#saveClass').onclick = () => { const payload = { ...item, name: $('#className').value.trim() || 'Clase', day: Number($('#classDay').value), start: $('#classStart').value, end: $('#classEnd').value }; state.gymClasses = classId ? state.gymClasses.map(c => c.id === item.id ? payload : c) : [...state.gymClasses, payload]; state.settings.scheduleVerified = isoDate(new Date()); saveState(); closeModal(); render(); };
+  }
+
+  function openModal({ eyebrow = '', title = '', body = '', actions = '' }) {
+    $('#modalEyebrow').textContent = eyebrow;
+    $('#modalTitle').textContent = title;
+    $('#modalBody').innerHTML = body;
+    $('#modalActions').innerHTML = actions;
+    const modal = $('#modal');
+    if (typeof modal.showModal === 'function') modal.showModal(); else modal.setAttribute('open', '');
+  }
+
+  function closeModal() {
+    const modal = $('#modal');
+    if (typeof modal.close === 'function') modal.close(); else modal.removeAttribute('open');
+  }
+
+  function quickAdd() {
+    openModal({ eyebrow: 'Añadir', title: '¿Qué quieres añadir?', body: `<div class="form-grid"><button type="button" class="button full" id="qaTraining">Entrenamiento</button><button type="button" class="button secondary full" id="qaUnavailable">Día sin entrenamiento</button><button type="button" class="button secondary full" id="qaShopping">Producto de compra</button><button type="button" class="button secondary full" id="qaProgress">Peso o medida</button></div>`, actions: '<button type="button" class="button ghost" id="cancelModal">Cerrar</button>' });
+    $('#cancelModal').onclick = closeModal;
+    $('#qaTraining').onclick = () => { closeModal(); openSessionCreateModal(); };
+    $('#qaUnavailable').onclick = () => { closeModal(); openAvailabilityModal(state.ui.selectedWeek); };
+    $('#qaShopping').onclick = () => { closeModal(); openShoppingModal(); };
+    $('#qaProgress').onclick = () => { closeModal(); openProgressModal(); };
+  }
+
+  function shoppingRowContext(target) {
+    const row = target.closest('.shopping-row');
+    if (!row) return null;
+    const custom = row.dataset.custom === 'true';
+    const key = row.dataset.key;
+    if (custom) return { custom, key, item: getWeek().customShopping.find(i => i.id === key) };
+    const item = generatedShoppingItems().find(i => i.key === key);
+    return { custom, key, item, status: item ? shoppingStatusFor(item) : null };
+  }
+
+  $('#mainContent').addEventListener('click', event => {
+    const target = event.target.closest('[data-action]');
+    if (!target) return;
+    const action = target.dataset.action;
+    if (action === 'prev-week' || action === 'next-week') { state.ui.selectedWeek = addDays(state.ui.selectedWeek, action === 'prev-week' ? -7 : 7); saveState(); render(); }
+    if (action === 'today-week') { state.ui.selectedWeek = startOfWeek(new Date()); saveState(); render(); }
+    if (action === 'reorganize') reorganizeWeek();
+    if (action === 'availability') openAvailabilityModal(target.dataset.date);
+    if (action === 'open-workout') openWorkoutModal(target.dataset.id);
+    if (action === 'add-exercise') openExerciseEditModal(target.dataset.routine);
+    if (action === 'edit-exercise') openExerciseEditModal(target.dataset.routine, target.dataset.id);
+    if (action === 'add-class') openClassModal();
+    if (action === 'edit-class') openClassModal(target.dataset.id);
+    if (action === 'edit-meal') openMealModal(target.dataset.date, target.dataset.slot);
+    if (action === 'add-meal-library') openMealLibraryModal();
+    if (action === 'add-shopping') openShoppingModal();
+    if (action === 'add-progress') openProgressModal();
+    if (action === 'delete-progress') { state.progress = state.progress.filter(p => p.id !== target.dataset.id); saveState(); render(); }
+    if (['shopping-bought', 'shopping-have', 'delete-shopping'].includes(action)) {
+      const ctx = shoppingRowContext(target); if (!ctx?.item) return;
+      const status = ctx.custom ? ctx.item : ctx.status;
+      if (action === 'shopping-bought') status.bought = target.checked;
+      if (action === 'shopping-have') status.have = !status.have;
+      if (action === 'delete-shopping' && ctx.custom) getWeek().customShopping = getWeek().customShopping.filter(i => i.id !== ctx.key);
+      saveState(); render();
+    }
+    if (action === 'copy-shopping') {
+      const lines = [];
+      generatedShoppingItems().forEach(item => { const s = shoppingStatusFor(item); if (!s.have) lines.push(`${s.bought ? '✓' : '☐'} ${item.name} — ${s.quantityText}`); });
+      getWeek().customShopping.forEach(item => { if (!item.have) lines.push(`${item.bought ? '✓' : '☐'} ${item.name} — ${item.quantityText}`); });
+      navigator.clipboard?.writeText(lines.join('\n')).then(() => alert('Lista copiada.')).catch(() => alert(lines.join('\n')));
+    }
+    if (action === 'reset-shopping-checks') { Object.values(getWeek().shoppingStatus).forEach(s => { s.bought = false; }); getWeek().customShopping.forEach(i => { i.bought = false; }); saveState(); render(); }
+    if (action === 'save-settings') {
+      state.profile.calorieTarget = Number($('#settingCalories').value || 1600);
+      state.profile.proteinTarget = Number($('#settingProtein').value || 95);
+      state.profile.weeklyBudget = Number($('#settingBudget').value || 25);
+      state.profile.stepTarget = Number($('#settingSteps').value || 5000);
+      state.settings.weekdayEarliest = $('#settingEarliest').value || '15:30';
+      saveState(); render();
+    }
+    if (action === 'export-data') { const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' }); const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = `forma-copia-${isoDate(new Date())}.json`; a.click(); URL.revokeObjectURL(url); }
+    if (action === 'import-data') $('#importInput').click();
+    if (action === 'reset-app' && confirm('¿Seguro? Se borrarán todos los datos guardados en este navegador.')) { state = seedState(); saveState(); render(); }
+  });
+
+  $('#mainContent').addEventListener('change', event => {
+    const target = event.target;
+    const action = target.dataset.action;
+    if (!['shopping-cost', 'shopping-qty'].includes(action)) return;
+    const ctx = shoppingRowContext(target); if (!ctx?.item) return;
+    const status = ctx.custom ? ctx.item : ctx.status;
+    if (action === 'shopping-cost') status.cost = Number(target.value || 0);
+    if (action === 'shopping-qty') status.quantityText = target.value;
+    saveState();
+  });
+
+  $$('.nav-item').forEach(btn => btn.addEventListener('click', () => setRoute(btn.dataset.route)));
+  $('#quickAddButton').addEventListener('click', quickAdd);
+  $('#importInput').addEventListener('change', event => {
+    const file = event.target.files?.[0]; if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const imported = JSON.parse(reader.result);
+        state = imported.version === 1 ? migrateLegacy(imported) : imported;
+        if (state.version !== 2) throw new Error('Versión incompatible');
+        saveState(); render(); alert('Datos importados correctamente.');
+      } catch (error) { alert('No se pudo importar el archivo.'); }
+      event.target.value = '';
+    };
+    reader.readAsText(file);
+  });
+
+  // Service worker disabled in the single-file edition.
+  getWeek();
+  render();
+})();
+
+  </script>
+</body>
+</html>
